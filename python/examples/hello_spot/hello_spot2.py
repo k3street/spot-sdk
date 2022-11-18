@@ -16,6 +16,7 @@ import cv2
 import numpy as np
 from bosdyn.api import image_pb2
 import bosdyn.client
+from bosdyn.client import robot_state
 import bosdyn.client.lease
 import bosdyn.client.util
 import bosdyn.geometry
@@ -124,6 +125,7 @@ def hello_spot(config):
         try:
             delay=500
             keep_going = True
+            _state_client = robot.addressensure_client(robot_state.RobotStateClient.default_service_name)
             while keep_going:
                 image_client = robot.ensure_client(ImageClient.default_service_name)
                 sources = image_client.list_image_sources()
