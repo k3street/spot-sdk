@@ -126,7 +126,10 @@ def hello_spot(config):
             delay=500
             keep_going = True
             _state_client = robot.addressensure_client(robot_state.RobotStateClient.default_service_name)
+            battery = _state_client.get_robot_state().battery_states[0].charge_percentage.value
             while keep_going:
+                if battery < .20:
+                    keep_going = False
                 image_client = robot.ensure_client(ImageClient.default_service_name)
                 sources = image_client.list_image_sources()
                 print(sources)
