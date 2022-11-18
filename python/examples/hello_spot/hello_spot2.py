@@ -180,20 +180,13 @@ def _maybe_save_image(image, path, camera = 'fisheye-right'):
     except ImportError:
         logger.warning("Missing dependencies. Can't save image.")
         return
-    now = datetime.now()
-    date_time = now.strftime("%m/%d/%Y, %H:%M:%S")
-    name = date_time + ".jpg"
-
-    if camera == 'frontright_fisheye_image':
-        path = path + '/frontright_fisheye_image'
-    elif camera == 'frontleft_fisheye_image':
-        path = path + '/frontleft_fisheye_image'
-    else:
-        path = path + '/unknown'
-
-    if path is not None and os.path.exists(path):
-        path = os.path.join(os.getcwd(), path)
-        name = os.path.join(path, name)
+    working_dir = os.getcwd()
+    _path = working_dir + path
+    if path is not None and os.path.exists(_path):
+        now = datetime.now()
+        date_time = datetime.timestamp(now)
+        name = str(date_time) + ".jpg"
+        name = os.path.join(_path, name)
         logger.info("Saving image to: {}".format(name))
     else:
         logger.info("Saving image to working directory as {}".format(name))
@@ -217,29 +210,40 @@ def collectData(image_client):
             image_dict = {}
             image_responses = image_client.get_image_from_sources(
                 __sources)
+            path = "/python/examples/hello_spot/camera_images"
             for image_response in image_responses:
-                if image_response.shot.image.pixel_format == image_pb2.Image.PIXEL_FORMAT_DEPTH_U16:
-                    d_type = np.uint16
-                else:
-                    d_type = np.uint8
+                path = os.path.join(os.getcwd(), path)
 
-                img = np.frombuffer(image_response.shot.image.data, dtype=d_type)
-                if image_response.shot.image.format == image_pb2.Image.FORMAT_RAW:
-                    img = img.reshape(image_response.shot.image.rows,
-                                    image_response.shot.image.cols)
+                if image_response.source.name == 'frontright_fisheye_image':
+                    path = path + '/frontright_fisheye_image'
+                elif image_response.source.name == 'frontleft_fisheye_image':
+                    path = path + '/frontleft_fisheye_image'
                 else:
-                    img = cv2.imdecode(img, -1)
-                img = cv2.resize(img, (480, 480), interpolation=cv2.INTER_AREA)
-                if image_response.source.name == 'frontright_fisheye_image' or image_response.source.name == 'frontleft_fisheye_image':
-                    img = cv2.rotate(img, cv2.ROTATE_90_CLOCKWISE)
-                    _maybe_save_image(img, 'camera_images', image_response.source.name)
-                elif image_response.source.name == 'right_fisheye_image':
-                    img = cv2.rotate(img, cv2.ROTATE_180)
-                    _maybe_save_image(img, 'camera_images', image_response.source.name)
+                    path = path + '/unknown'
+                _maybe_save_image(image_response.shot.image, path, image_response.source.name)
+                # if image_response.shot.image.pixel_format == image_pb2.Image.PIXEL_FORMAT_DEPTH_U16:
+                #     d_type = np.uint16
+                # else:
+                #     d_type = np.uint8
 
-                image_dict[image_response.source.name] = img
-                cv2.imshow('image', np.concatenate(
-                    list(image_dict.values()), axis=1))
+                # img = np.frombuffer(image_response.shot.image.data, dtype=d_type)
+                # if image_response.shot.image.format == image_pb2.Image.FORMAT_RAW:
+                #     img = img.reshape(image_response.shot.image.rows,
+                #                     image_response.shot.image.cols)
+                # else:
+                #     img = cv2.imdecode(img, -1)
+                # img = cv2.resize(img, (480, 480), interpolation=cv2.INTER_AREA)
+                # if image_response.source.name == 'frontright_fisheye_image' or image_response.source.name == 'frontleft_fisheye_image':
+                #     img = cv2.rotate(img, cv2.ROTATE_90_CLOCKWISE)
+                #     # cv2.imwrite(path, img)
+                #     cv2.imwrite(path, img)
+                # elif image_response.source.name == 'right_fisheye_image':
+                #     img = cv2.rotate(img, cv2.ROTATE_180)
+                    # cv2.imwrite(path, img)
+
+                # image_dict[image_response.source.name] = img
+                # cv2.imshow('image', np.concatenate(
+                #     list(image_dict.values()), axis=1))
         # key_pressed = cv2.waitKey(delay)
         # if key_pressed == 32:
         #     keep_going = False
