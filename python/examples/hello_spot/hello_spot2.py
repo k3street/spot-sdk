@@ -210,8 +210,8 @@ def collectData(image_client):
             image_dict = {}
             image_responses = image_client.get_image_from_sources(
                 __sources)
-            path = "/python/examples/hello_spot/camera_images"
             for image_response in image_responses:
+                path = "/python/examples/hello_spot/camera_images"
                 path = os.path.join(os.getcwd(), path)
 
                 if image_response.source.name == 'frontright_fisheye_image':
