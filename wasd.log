@@ -1,0 +1,5571 @@
+2022-11-18 10:44:02,650 - DEBUG - Creating standard Sdk, cert glob: "None"
+2022-11-18 10:44:12,367 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority auth.spot.robot
+2022-11-18 10:44:12,367 - DEBUG - Created client for auth
+2022-11-18 10:44:12,368 - DEBUG - blocking request: b'/bosdyn.api.AuthService/GetAuthToken' 
+header {
+  request_timestamp {
+    seconds: 1668797052
+    nanos: 368484096
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+}
+username: "user"
+password: "mqmjpb639fpu"
+
+
+2022-11-18 10:44:13,298 - DEBUG - response: b'/bosdyn.api.AuthService/GetAuthToken' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797052
+      nanos: 368484096
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+  }
+  request_received_timestamp {
+    seconds: 1668797118
+    nanos: 939471753
+  }
+  response_timestamp {
+    seconds: 1668797119
+    nanos: 159096784
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.GetAuthTokenRequest"
+    value: "\nC\n\014\010\374\244\337\233\006\020\200\276\332\257\001\0223WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068\022\004user\032\014mqmjpb639fpu"
+  }
+}
+status: STATUS_OK
+token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJpYXQiOjE2Njg3OTcxMTksImlzcyI6InNwb3QtQkQtMjEyMjAwMTEiLCJleHAiOjE2Njg4NDAzMTksImp0aSI6InNwb3QtQkQtMjEyMjAwMTE1NDIxIiwibmJmIjoxNjY4Nzk3MTE5LCJ0eXAiOiJKV1QiLCJ1c2VyIjoidXNlciIsImxldmVsIjowLCJwZXIiOlsic3BvdC1jaGVjayIsInBheWxvYWQiLCJsZWFzZSIsInBheWxvYWQtcmVnaXN0cmF0aW9uIiwic3BvdC1jYW0tbmV0d29yayIsIndvcmxkLW9iamVjdHMiLCJzcG90LWNhbS1wdHoiLCJtYW5pcHVsYXRpb24iLCJhdXRoIiwibGljZW5zZSIsImltYWdlIiwicmVjb3JkaW5nLXNlcnZpY2UiLCJkYXRhLWJ1ZmZlciIsImFybS1zdXJmYWNlLWNvbnRhY3QiLCJyb2JvdC1taXNzaW9uIiwic3BvdC1jYW0taGVhbHRoIiwic3BvdC1jYW0tcG93ZXIiLCJyb2JvdC1pZCIsImZhdWx0IiwibG9jYWwtZ3JpZC1zZXJ2aWNlIiwibG9nLWFubm90YXRpb24iLCJzcG90LWNhbS12ZXJzaW9uIiwiZXN0b3AiLCJkaXJlY3RvcnktcmVnaXN0cmF0aW9uIiwidGltZS1zeW5jIiwic3BvdC1jYW0tc3RyZWFtLXF1YWxpdHkiLCJwb3dlciIsInNwb3QtY2FtLWNvbXBvc2l0b3IiLCJkYXRhIiwiZG9ja2luZyIsInNlbnNvci1wb2ludGluZy1zZXJ2aWNlIiwic3BvdC1jYW0tbWVkaWEtbG9nIiwiZ3JhcGgtbmF2LXNlcnZpY2UiLCJhdXRvLXJldHVybiIsInJvYm90LWNvbW1hbmQiLCJyb2JvdC1zdGF0ZSIsInNwb3QtY2FtLWxpZ2h0aW5nIiwiZ3JpcHBlci1jYW1lcmEtcGFyYW0iLCJzcG90LWNhbS1hdWRpbyIsImRpcmVjdG9yeSIsImRvb3IiXX0.PWME_CVcwVR0F64_4ig_Au3t0XOjII8tyBHqsfDNzyqavhRcP73JSw32OQ1CcvThmWGZJQxk2ixEm6D3CuVF1A"
+
+
+2022-11-18 10:44:13,307 - DEBUG - Created client for time-sync
+2022-11-18 10:44:13,314 - DEBUG - Created client for directory
+2022-11-18 10:44:13,321 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority api.spot.robot
+2022-11-18 10:44:13,327 - DEBUG - blocking request: b'/bosdyn.api.DirectoryService/ListServiceEntries' 
+header {
+  request_timestamp {
+    seconds: 1668797053
+    nanos: 327905024
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+}
+
+
+2022-11-18 10:44:13,407 - DEBUG - response: b'/bosdyn.api.DirectoryService/ListServiceEntries' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797053
+      nanos: 327905024
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+  }
+  request_received_timestamp {
+    seconds: 1668797119
+    nanos: 922101355
+  }
+  response_timestamp {
+    seconds: 1668797119
+    nanos: 922104464
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.ListServiceEntriesRequest"
+    value: "\nC\n\014\010\375\244\337\233\006\020\200\336\255\234\001\0223WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+  }
+}
+service_entries {
+  name: "auth"
+  type: "bosdyn.api.AuthService"
+  authority: "auth.spot.robot"
+  last_update {
+    seconds: 1668797119
+    nanos: 503272939
+  }
+}
+service_entries {
+  name: "auto-return"
+  type: "bosdyn.api.auto_return.AutoReturnService"
+  authority: "auto-return.spot.robot"
+  last_update {
+    seconds: 1668797114
+    nanos: 55194620
+  }
+  user_token_required: true
+  permission_required: "auto-return"
+}
+service_entries {
+  name: "choreography"
+  type: "bosdyn.api.spot.ChoreographyService"
+  authority: "choreographyservice.spot.robot"
+  last_update {
+    seconds: 1668797099
+    nanos: 747840776
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "comms-data-acquisition-plugin"
+  type: "bosdyn.api.DataAcquisitionPluginService"
+  authority: "comms-data-acquisition-plugin.spot.robot"
+  last_update {
+    seconds: 1668797118
+    nanos: 335338702
+  }
+  user_token_required: true
+  liveness_timeout_secs: 75
+}
+service_entries {
+  name: "data"
+  type: "bosdyn.api.DataService"
+  authority: "data.spot.robot"
+  last_update {
+    seconds: 1668797113
+    nanos: 249733235
+  }
+  user_token_required: true
+  permission_required: "data"
+}
+service_entries {
+  name: "data-acquisition"
+  type: "bosdyn.api.DataAcquisitionService"
+  authority: "data-acquisition.spot.robot"
+  last_update {
+    seconds: 1668797118
+    nanos: 186539771
+  }
+  user_token_required: true
+  liveness_timeout_secs: 75
+}
+service_entries {
+  name: "data-acquisition-fire-extinguisher-server-plugin"
+  type: "bosdyn.api.DataAcquisitionPluginService"
+  authority: "data-acquisition-ncb-plugin.spot.robot"
+  last_update {
+    seconds: 1668797090
+    nanos: 962121858
+  }
+  user_token_required: true
+  liveness_timeout_secs: 75
+  host_payload_guid: "b6877bcf-4058-450a-9d9a-83186f7ac913"
+}
+service_entries {
+  name: "data-acquisition-store"
+  type: "bosdyn.api.DataAcquisitionStoreService"
+  authority: "data-acquisition-store.spot.robot"
+  last_update {
+    seconds: 1668797118
+    nanos: 160074548
+  }
+  user_token_required: true
+  liveness_timeout_secs: 75
+}
+service_entries {
+  name: "data-buffer"
+  type: "bosdyn.api.DataBufferService"
+  authority: "buffer.spot.robot"
+  last_update {
+    seconds: 1668797113
+    nanos: 248611375
+  }
+  user_token_required: true
+  permission_required: "data-buffer"
+}
+service_entries {
+  name: "data-buffer-private"
+  type: "bosdyn.api.DataBufferService"
+  authority: "bufferprivate.spot.robot"
+  last_update {
+    seconds: 1668797113
+    nanos: 265474785
+  }
+  user_token_required: true
+  permission_required: "data-buffer-private"
+}
+service_entries {
+  name: "directory"
+  type: "bosdyn.api.DirectoryService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1668789969
+    nanos: 436636526
+  }
+  user_token_required: true
+  permission_required: "auth"
+}
+service_entries {
+  name: "directory-registration"
+  type: "bosdyn.api.DirectoryRegistrationService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1668789969
+    nanos: 436866901
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "docking"
+  type: "bosdyn.api.docking.DockingService"
+  authority: "docking.spot.robot"
+  last_update {
+    seconds: 1668797112
+    nanos: 508462011
+  }
+  user_token_required: true
+  permission_required: "docking"
+}
+service_entries {
+  name: "echo"
+  type: "bosdyn.api.EchoService"
+  authority: "echo.spot.robot"
+  last_update {
+    seconds: 1668797111
+    nanos: 844055352
+  }
+  user_token_required: true
+  permission_required: "echo"
+}
+service_entries {
+  name: "estop"
+  type: "bosdyn.api.EstopService"
+  authority: "estop.spot.robot"
+  last_update {
+    seconds: 1668797119
+    nanos: 440570856
+  }
+  user_token_required: true
+  permission_required: "estop"
+}
+service_entries {
+  name: "fault"
+  type: "bosdyn.api.FaultService"
+  authority: "fault.spot.robot"
+  last_update {
+    seconds: 1668797109
+    nanos: 496053930
+  }
+  user_token_required: true
+  permission_required: "fault"
+}
+service_entries {
+  name: "fire-extinguisher-server"
+  type: "bosdyn.api.NetworkComputeBridgeWorker"
+  authority: "fire-extinguisher-worker.spot.robot"
+  last_update {
+    seconds: 1668797110
+    nanos: 26257845
+  }
+  user_token_required: true
+  liveness_timeout_secs: 75
+  host_payload_guid: "b6877bcf-4058-450a-9d9a-83186f7ac913"
+}
+service_entries {
+  name: "graph-nav-service"
+  type: "bosdyn.api.graph_nav.GraphNavService"
+  authority: "graph-nav.spot.robot"
+  last_update {
+    seconds: 1668797116
+    nanos: 383925987
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "image"
+  type: "bosdyn.api.ImageService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1668797109
+    nanos: 742219046
+  }
+  user_token_required: true
+  permission_required: "image"
+}
+service_entries {
+  name: "internal.localnav"
+  type: "bosdyn.api.internal.localnav.LocalNavService"
+  authority: "localnav.spot.robot"
+  last_update {
+    seconds: 1668797111
+    nanos: 654839084
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "ir-enable-disable-service"
+  type: "bosdyn.api.IREnableDisableService"
+  authority: "ir-enable-disable-service.spot.robot"
+  last_update {
+    seconds: 1668797099
+    nanos: 835833865
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "lease"
+  type: "bosdyn.api.LeaseService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1668797119
+    nanos: 501519150
+  }
+  user_token_required: true
+  permission_required: "lease"
+}
+service_entries {
+  name: "license"
+  type: "bosdyn.api.LicenseService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1668797119
+    nanos: 503076702
+  }
+  user_token_required: true
+  permission_required: "license"
+}
+service_entries {
+  name: "local-grid-service"
+  type: "bosdyn.api.LocalGridService"
+  authority: "localgrid.spot.robot"
+  last_update {
+    seconds: 1668797115
+    nanos: 565149949
+  }
+  user_token_required: true
+  permission_required: "local-grid-service"
+}
+service_entries {
+  name: "log-annotation"
+  type: "bosdyn.api.LogAnnotationService"
+  authority: "log.spot.robot"
+  last_update {
+    seconds: 1668797109
+    nanos: 487224474
+  }
+  user_token_required: true
+  permission_required: "log-annotation"
+}
+service_entries {
+  name: "map-processing-service"
+  type: "bosdyn.api.graph_nav.MapProcessingService"
+  authority: "map-processing.spot.robot"
+  last_update {
+    seconds: 1668797116
+    nanos: 389760924
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "metrics-logging"
+  type: "bosdyn.api.metrics_logging.MetricsLoggingRobotService"
+  authority: "metricslogging.spot.robot"
+  last_update {
+    seconds: 1668797111
+    nanos: 168988052
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "ncb_feature_server"
+  type: "bosdyn.api.NetworkComputeBridgeWorker"
+  authority: "ncb-feature-server.spot.robot"
+  last_update {
+    seconds: 1668797099
+    nanos: 727242696
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "network-compute-bridge"
+  type: "bosdyn.api.NetworkComputeBridge"
+  authority: "network-compute-bridge.spot.robot"
+  last_update {
+    seconds: 1668797109
+    nanos: 753660738
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "payload"
+  type: "bosdyn.api.PayloadService"
+  authority: "payload.spot.robot"
+  last_update {
+    seconds: 1668797109
+    nanos: 447087772
+  }
+  user_token_required: true
+  permission_required: "payload"
+}
+service_entries {
+  name: "payload-registration"
+  type: "bosdyn.api.PayloadRegistrationService"
+  authority: "payload-registration.spot.robot"
+  last_update {
+    seconds: 1668797109
+    nanos: 447337283
+  }
+  permission_required: "payload-registration"
+}
+service_entries {
+  name: "power"
+  type: "bosdyn.api.PowerService"
+  authority: "power.spot.robot"
+  last_update {
+    seconds: 1668797109
+    nanos: 443786539
+  }
+  user_token_required: true
+  permission_required: "power"
+}
+service_entries {
+  name: "public_estop_api"
+  type: "bdRobotApi.estop.RobotEstopRpc"
+  authority: "estop-api.spot.robot"
+  last_update {
+    seconds: 1668797119
+    nanos: 439968944
+  }
+  user_token_required: true
+  permission_required: "public_estop_api"
+}
+service_entries {
+  name: "ray-cast"
+  type: "bosdyn.api.RayCastService"
+  authority: "ray-cast.spot.robot"
+  last_update {
+    seconds: 1668797113
+    nanos: 840249554
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "recording-service"
+  type: "bosdyn.api.graph_nav.GraphNavRecordingService"
+  authority: "recordingv2.spot.robot"
+  last_update {
+    seconds: 1668797116
+    nanos: 390038217
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "robot-command"
+  type: "bosdyn.api.RobotCommandService"
+  authority: "command.spot.robot"
+  last_update {
+    seconds: 1668797109
+    nanos: 483919143
+  }
+  user_token_required: true
+  permission_required: "robot-command"
+}
+service_entries {
+  name: "robot-id"
+  type: "bosdyn.api.RobotIdService"
+  authority: "id.spot.robot"
+  last_update {
+    seconds: 1668797109
+    nanos: 481068097
+  }
+}
+service_entries {
+  name: "robot-mission"
+  type: "bosdyn.api.mission.MissionService"
+  authority: "robot-mission.spot.robot"
+  last_update {
+    seconds: 1668797119
+    nanos: 452307845
+  }
+  user_token_required: true
+  liveness_timeout_secs: 12.5
+}
+service_entries {
+  name: "robot-state"
+  type: "bosdyn.api.RobotStateService"
+  authority: "state.spot.robot"
+  last_update {
+    seconds: 1668797109
+    nanos: 462172974
+  }
+  user_token_required: true
+  permission_required: "robot-state"
+}
+service_entries {
+  name: "sensor-pointing-service"
+  type: "bosdyn.api.sensor_pointing.SensorPointingService"
+  authority: "sensorpointing.spot.robot"
+  last_update {
+    seconds: 1668797113
+    nanos: 49866392
+  }
+  user_token_required: true
+  permission_required: "sensor-pointing-service"
+}
+service_entries {
+  name: "sensor-pointing-service-spotcam"
+  type: "bosdyn.api.sensor_pointing.PtzSensorService"
+  authority: "sensorpointing-ptz.spot.robot"
+  last_update {
+    seconds: 1668797113
+    nanos: 45722861
+  }
+  user_token_required: true
+  permission_required: "sensor-pointing-service-spotcam"
+}
+service_entries {
+  name: "spot-cam-audio"
+  type: "bosdyn.api.spot_cam.AudioService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797116
+    nanos: 148814497
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-camera-configuration"
+  type: "bosdyn.api.spot_cam.CameraConfigurationService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797116
+    nanos: 385855808
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-compositor"
+  type: "bosdyn.api.spot_cam.CompositorService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797119
+    nanos: 920848443
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-factory-reset"
+  type: "bosdyn.api.spot_cam.FactoryResetService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797116
+    nanos: 423914546
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-health"
+  type: "bosdyn.api.spot_cam.HealthService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797116
+    nanos: 169646421
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-image"
+  type: "bosdyn.api.ImageService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797116
+    nanos: 874486593
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-lighting"
+  type: "bosdyn.api.spot_cam.LightingService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797116
+    nanos: 32881317
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-location"
+  type: "bosdyn.api.spot_cam.LocationService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797116
+    nanos: 195547797
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-media-log"
+  type: "bosdyn.api.spot_cam.MediaLogService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797116
+    nanos: 63551146
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-network"
+  type: "bosdyn.api.spot_cam.NetworkService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797116
+    nanos: 922515256
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-power"
+  type: "bosdyn.api.spot_cam.PowerService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797115
+    nanos: 982036553
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-ptz"
+  type: "bosdyn.api.spot_cam.PtzService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797116
+    nanos: 115899704
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-ptz-configuration"
+  type: "bosdyn.api.spot_cam.PtzConfigurationService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797116
+    nanos: 651753609
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-stream-quality"
+  type: "bosdyn.api.spot_cam.StreamQualityService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797115
+    nanos: 956134126
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-version"
+  type: "bosdyn.api.spot_cam.VersionService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797116
+    nanos: 313648141
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-check"
+  type: "bosdyn.api.spot.SpotCheckService"
+  authority: "check.spot.robot"
+  last_update {
+    seconds: 1668797109
+    nanos: 490333115
+  }
+  user_token_required: true
+  permission_required: "spot-check"
+}
+service_entries {
+  name: "time-sync"
+  type: "bosdyn.api.TimeSyncService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1668797119
+    nanos: 502819642
+  }
+  user_token_required: true
+  permission_required: "time-sync"
+}
+service_entries {
+  name: "velodyne-point-cloud"
+  type: "bosdyn.api.PointCloudService"
+  authority: "velodyne.spot.robot"
+  last_update {
+    seconds: 1668797118
+    nanos: 14614143
+  }
+  user_token_required: true
+  liveness_timeout_secs: 5
+  host_payload_guid: "b6877bcf-4058-450a-9d9a-83186f7ac913"
+}
+service_entries {
+  name: "world-objects"
+  type: "bosdyn.api.WorldObjectService"
+  authority: "world-objects.spot.robot"
+  last_update {
+    seconds: 1668797115
+    nanos: 357764311
+  }
+  user_token_required: true
+  permission_required: "world-objects"
+}
+
+
+2022-11-18 10:44:13,419 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_timestamp {
+    seconds: 1668797053
+    nanos: 419561984
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+}
+
+
+2022-11-18 10:44:13,419 - DEBUG - Created client for lease
+2022-11-18 10:44:13,437 - DEBUG - Created client for estop
+2022-11-18 10:44:13,438 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority estop.spot.robot
+2022-11-18 10:44:13,438 - DEBUG - Created client for power
+2022-11-18 10:44:13,438 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority power.spot.robot
+2022-11-18 10:44:13,438 - DEBUG - Created client for robot-state
+2022-11-18 10:44:13,438 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority state.spot.robot
+2022-11-18 10:44:13,438 - DEBUG - Created client for robot-command
+2022-11-18 10:44:13,438 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority command.spot.robot
+2022-11-18 10:44:13,439 - DEBUG - Created client for image
+2022-11-18 10:44:13,439 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/AcquireLease' 
+header {
+  request_timestamp {
+    seconds: 1668797053
+    nanos: 439368960
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+}
+resource: "body"
+
+
+2022-11-18 10:44:13,470 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797053
+      nanos: 419561984
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+  }
+  request_received_timestamp {
+    seconds: 1668797119
+    nanos: 971364056
+  }
+  response_timestamp {
+    seconds: 1668797119
+    nanos: 971370946
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.TimeSyncUpdateRequest"
+    value: "\nC\n\014\010\375\244\337\233\006\020\200\204\210\310\001\0223WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+
+
+2022-11-18 10:44:13,470 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_timestamp {
+    seconds: 1668797053
+    nanos: 470598912
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1668797053
+    nanos: 419561984
+  }
+  server_rx {
+    seconds: 1668797119
+    nanos: 971364056
+  }
+  server_tx {
+    seconds: 1668797119
+    nanos: 971370946
+  }
+  client_rx {
+    seconds: 1668797053
+    nanos: 470503936
+  }
+}
+clock_identifier: "cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+
+
+2022-11-18 10:44:13,509 - DEBUG - response: b'/bosdyn.api.LeaseService/AcquireLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797053
+      nanos: 439368960
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+  }
+  request_received_timestamp {
+    seconds: 1668797120
+    nanos: 1930102
+  }
+  response_timestamp {
+    seconds: 1668797120
+    nanos: 1941097
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.AcquireLeaseRequest"
+    value: "\nC\n\014\010\375\244\337\233\006\020\200\372\300\321\001\0223WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068\022\004body"
+  }
+}
+status: STATUS_RESOURCE_ALREADY_CLAIMED
+lease_owner {
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-66835"
+}
+
+
+2022-11-18 10:44:13,528 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797053
+      nanos: 470598912
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+  }
+  request_received_timestamp {
+    seconds: 1668797120
+    nanos: 43171203
+  }
+  response_timestamp {
+    seconds: 1668797120
+    nanos: 43196673
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.TimeSyncUpdateRequest"
+    value: "\nC\n\014\010\375\244\337\233\006\020\200\212\263\340\001\0223WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068\0228\n\014\010\375\244\337\233\006\020\200\204\210\310\001\022\014\010\277\245\337\233\006\020\330\255\227\317\003\032\014\010\277\245\337\233\006\020\302\343\227\317\003\"\014\010\375\244\337\233\006\020\200\244\255\340\001\032$cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 50935062
+  }
+  clock_skew {
+    seconds: 66
+    nanos: 526334541
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+
+
+2022-11-18 10:44:13,528 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_timestamp {
+    seconds: 1668797053
+    nanos: 528875008
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1668797053
+    nanos: 470598912
+  }
+  server_rx {
+    seconds: 1668797120
+    nanos: 43171203
+  }
+  server_tx {
+    seconds: 1668797120
+    nanos: 43196673
+  }
+  client_rx {
+    seconds: 1668797053
+    nanos: 528816896
+  }
+}
+clock_identifier: "cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+
+
+2022-11-18 10:44:13,561 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797053
+      nanos: 528875008
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+  }
+  request_received_timestamp {
+    seconds: 1668797120
+    nanos: 67620058
+  }
+  response_timestamp {
+    seconds: 1668797120
+    nanos: 67629427
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.TimeSyncUpdateRequest"
+    value: "\nC\n\014\010\375\244\337\233\006\020\200\374\227\374\001\0223WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068\0226\n\014\010\375\244\337\233\006\020\200\212\263\340\001\022\013\010\300\245\337\233\006\020\203\373\312\024\032\013\010\300\245\337\233\006\020\201\302\314\024\"\014\010\375\244\337\233\006\020\200\266\224\374\001\032$cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 58192514
+  }
+  clock_skew {
+    seconds: 66
+    nanos: 543476034
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+
+
+2022-11-18 10:44:13,567 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_timestamp {
+    seconds: 1668797053
+    nanos: 567247104
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1668797053
+    nanos: 528875008
+  }
+  server_rx {
+    seconds: 1668797120
+    nanos: 67620058
+  }
+  server_tx {
+    seconds: 1668797120
+    nanos: 67629427
+  }
+  client_rx {
+    seconds: 1668797053
+    nanos: 567171072
+  }
+}
+clock_identifier: "cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+
+
+2022-11-18 10:44:13,649 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797053
+      nanos: 567247104
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+  }
+  request_received_timestamp {
+    seconds: 1668797120
+    nanos: 148728336
+  }
+  response_timestamp {
+    seconds: 1668797120
+    nanos: 148745182
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.TimeSyncUpdateRequest"
+    value: "\nC\n\014\010\375\244\337\233\006\020\200\202\276\216\002\0223WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068\0226\n\014\010\375\244\337\233\006\020\200\374\227\374\001\022\013\010\300\245\337\233\006\020\332\231\237 \032\013\010\300\245\337\233\006\020\363\342\237 \"\014\010\375\244\337\233\006\020\200\260\271\216\002\032$cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 38286695
+  }
+  clock_skew {
+    seconds: 66
+    nanos: 519601702
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+
+
+2022-11-18 10:44:13,668 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_timestamp {
+    seconds: 1668797053
+    nanos: 668871936
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1668797053
+    nanos: 567247104
+  }
+  server_rx {
+    seconds: 1668797120
+    nanos: 148728336
+  }
+  server_tx {
+    seconds: 1668797120
+    nanos: 148745182
+  }
+  client_rx {
+    seconds: 1668797053
+    nanos: 662343936
+  }
+}
+clock_identifier: "cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+
+
+2022-11-18 10:44:13,717 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797053
+      nanos: 668871936
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+  }
+  request_received_timestamp {
+    seconds: 1668797120
+    nanos: 236519173
+  }
+  response_timestamp {
+    seconds: 1668797120
+    nanos: 236531630
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.TimeSyncUpdateRequest"
+    value: "\nC\n\014\010\375\244\337\233\006\020\200\332\370\276\002\0223WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068\0226\n\014\010\375\244\337\233\006\020\200\202\276\216\002\022\013\010\300\245\337\233\006\020\220\324\365F\032\013\010\300\245\337\233\006\020\336\327\366F\"\014\010\375\244\337\233\006\020\200\242\352\273\002\032$cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 95079986
+  }
+  clock_skew {
+    seconds: 66
+    nanos: 533941239
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+
+
+2022-11-18 10:44:13,724 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_timestamp {
+    seconds: 1668797053
+    nanos: 724172032
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1668797053
+    nanos: 668871936
+  }
+  server_rx {
+    seconds: 1668797120
+    nanos: 236519173
+  }
+  server_tx {
+    seconds: 1668797120
+    nanos: 236531630
+  }
+  client_rx {
+    seconds: 1668797053
+    nanos: 724091904
+  }
+}
+clock_identifier: "cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+
+
+2022-11-18 10:44:13,761 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797053
+      nanos: 724172032
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+  }
+  request_received_timestamp {
+    seconds: 1668797120
+    nanos: 274780429
+  }
+  response_timestamp {
+    seconds: 1668797120
+    nanos: 274791162
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.TimeSyncUpdateRequest"
+    value: "\nC\n\014\010\375\244\337\233\006\020\200\372\247\331\002\0223WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068\0226\n\014\010\375\244\337\233\006\020\200\332\370\276\002\022\013\010\300\245\337\233\006\020\205\376\343p\032\013\010\300\245\337\233\006\020\256\337\344p\"\014\010\375\244\337\233\006\020\200\210\243\331\002\032$cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 55207511
+  }
+  clock_skew {
+    seconds: 66
+    nanos: 540043481
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+
+
+2022-11-18 10:44:13,774 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_timestamp {
+    seconds: 1668797053
+    nanos: 774448896
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1668797053
+    nanos: 724172032
+  }
+  server_rx {
+    seconds: 1668797120
+    nanos: 274780429
+  }
+  server_tx {
+    seconds: 1668797120
+    nanos: 274791162
+  }
+  client_rx {
+    seconds: 1668797053
+    nanos: 774336000
+  }
+}
+clock_identifier: "cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+
+
+2022-11-18 10:44:13,819 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797053
+      nanos: 774448896
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+  }
+  request_received_timestamp {
+    seconds: 1668797120
+    nanos: 340502241
+  }
+  response_timestamp {
+    seconds: 1668797120
+    nanos: 340517873
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.TimeSyncUpdateRequest"
+    value: "\nC\n\014\010\375\244\337\233\006\020\200\316\244\361\002\0223WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068\0228\n\014\010\375\244\337\233\006\020\200\372\247\331\002\022\014\010\300\245\337\233\006\020\215\242\203\203\001\032\014\010\300\245\337\233\006\020\372\365\203\203\001\"\014\010\375\244\337\233\006\020\200\334\235\361\002\032$cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 50153235
+  }
+  clock_skew {
+    seconds: 66
+    nanos: 525531779
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+
+
+2022-11-18 10:44:13,820 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_timestamp {
+    seconds: 1668797053
+    nanos: 820118016
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1668797053
+    nanos: 774448896
+  }
+  server_rx {
+    seconds: 1668797120
+    nanos: 340502241
+  }
+  server_tx {
+    seconds: 1668797120
+    nanos: 340517873
+  }
+  client_rx {
+    seconds: 1668797053
+    nanos: 820039936
+  }
+}
+clock_identifier: "cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+
+
+2022-11-18 10:44:13,894 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797053
+      nanos: 820118016
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+  }
+  request_received_timestamp {
+    seconds: 1668797120
+    nanos: 408024658
+  }
+  response_timestamp {
+    seconds: 1668797120
+    nanos: 408037709
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.TimeSyncUpdateRequest"
+    value: "\nC\n\014\010\375\244\337\233\006\020\200\204\210\207\003\0223WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068\0228\n\014\010\375\244\337\233\006\020\200\316\244\361\002\022\014\010\300\245\337\233\006\020\341\315\256\242\001\032\014\010\300\245\337\233\006\020\361\307\257\242\001\"\014\010\375\244\337\233\006\020\200\242\203\207\003\032$cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 45575408
+  }
+  clock_skew {
+    seconds: 66
+    nanos: 543265641
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+
+
+2022-11-18 10:44:13,900 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_timestamp {
+    seconds: 1668797053
+    nanos: 900550912
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1668797053
+    nanos: 820118016
+  }
+  server_rx {
+    seconds: 1668797120
+    nanos: 408024658
+  }
+  server_tx {
+    seconds: 1668797120
+    nanos: 408037709
+  }
+  client_rx {
+    seconds: 1668797053
+    nanos: 900465920
+  }
+}
+clock_identifier: "cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+
+
+2022-11-18 10:44:13,939 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797053
+      nanos: 900550912
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068"
+  }
+  request_received_timestamp {
+    seconds: 1668797120
+    nanos: 458020943
+  }
+  response_timestamp {
+    seconds: 1668797120
+    nanos: 458039284
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.TimeSyncUpdateRequest"
+    value: "\nC\n\014\010\375\244\337\233\006\020\200\242\265\255\003\0223WASDClientbcd07463d636.ant.amazon.com:wasd.py-67068\0228\n\014\010\375\244\337\233\006\020\200\204\210\207\003\022\014\010\300\245\337\233\006\020\322\354\307\302\001\032\014\010\300\245\337\233\006\020\315\322\310\302\001\"\014\010\375\244\337\233\006\020\200\212\260\255\003\032$cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 80334853
+  }
+  clock_skew {
+    seconds: 66
+    nanos: 547739215
+  }
+}
+state {
+  best_estimate {
+    round_trip_time {
+      nanos: 55207511
+    }
+    clock_skew {
+      seconds: 66
+      nanos: 547739215
+    }
+  }
+  status: STATUS_OK
+  measurement_time {
+    seconds: 1668797120
+    nanos: 458037252
+  }
+}
+clock_identifier: "cb5d6e61-2a85-445e-80a2-3a67aa5c0272"
+
+
+2022-11-18 10:44:26,287 - DEBUG - Creating standard Sdk, cert glob: "None"
+2022-11-18 10:44:34,951 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority auth.spot.robot
+2022-11-18 10:44:34,952 - DEBUG - Created client for auth
+2022-11-18 10:44:34,952 - DEBUG - blocking request: b'/bosdyn.api.AuthService/GetAuthToken' 
+header {
+  request_timestamp {
+    seconds: 1668797074
+    nanos: 952679936
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+username: "user"
+password: "mqmjpb639fpu"
+
+
+2022-11-18 10:44:35,188 - DEBUG - response: b'/bosdyn.api.AuthService/GetAuthToken' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797074
+      nanos: 952679936
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797141
+    nanos: 569652639
+  }
+  response_timestamp {
+    seconds: 1668797141
+    nanos: 712777660
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.GetAuthTokenRequest"
+    value: "\nD\n\014\010\222\245\337\233\006\020\200\374\242\306\003\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022\004user\032\014mqmjpb639fpu"
+  }
+}
+status: STATUS_OK
+token: "eyJ0eXAiOiJKV1QiLCJhbGciOiJFUzI1NiJ9.eyJpYXQiOjE2Njg3OTcxNDEsImlzcyI6InNwb3QtQkQtMjEyMjAwMTEiLCJleHAiOjE2Njg4NDAzNDEsImp0aSI6InNwb3QtQkQtMjEyMjAwMTE1NDIyIiwibmJmIjoxNjY4Nzk3MTQxLCJ0eXAiOiJKV1QiLCJ1c2VyIjoidXNlciIsImxldmVsIjowLCJwZXIiOlsic3BvdC1jaGVjayIsInBheWxvYWQiLCJsZWFzZSIsInBheWxvYWQtcmVnaXN0cmF0aW9uIiwic3BvdC1jYW0tbmV0d29yayIsIndvcmxkLW9iamVjdHMiLCJzcG90LWNhbS1wdHoiLCJtYW5pcHVsYXRpb24iLCJhdXRoIiwibGljZW5zZSIsImltYWdlIiwicmVjb3JkaW5nLXNlcnZpY2UiLCJkYXRhLWJ1ZmZlciIsImFybS1zdXJmYWNlLWNvbnRhY3QiLCJyb2JvdC1taXNzaW9uIiwic3BvdC1jYW0taGVhbHRoIiwic3BvdC1jYW0tcG93ZXIiLCJyb2JvdC1pZCIsImZhdWx0IiwibG9jYWwtZ3JpZC1zZXJ2aWNlIiwibG9nLWFubm90YXRpb24iLCJzcG90LWNhbS12ZXJzaW9uIiwiZXN0b3AiLCJkaXJlY3RvcnktcmVnaXN0cmF0aW9uIiwidGltZS1zeW5jIiwic3BvdC1jYW0tc3RyZWFtLXF1YWxpdHkiLCJwb3dlciIsInNwb3QtY2FtLWNvbXBvc2l0b3IiLCJkYXRhIiwiZG9ja2luZyIsInNlbnNvci1wb2ludGluZy1zZXJ2aWNlIiwic3BvdC1jYW0tbWVkaWEtbG9nIiwiZ3JhcGgtbmF2LXNlcnZpY2UiLCJhdXRvLXJldHVybiIsInJvYm90LWNvbW1hbmQiLCJyb2JvdC1zdGF0ZSIsInNwb3QtY2FtLWxpZ2h0aW5nIiwiZ3JpcHBlci1jYW1lcmEtcGFyYW0iLCJzcG90LWNhbS1hdWRpbyIsImRpcmVjdG9yeSIsImRvb3IiXX0.HFCnFEqi_2J2gURYB7gn_iQbwYYN_zcf7jWNx0_0ThEo9VTMQRRZBU89tRTVZEvE3I2Pdkm4lJHlsKGsv2XGmQ"
+
+
+2022-11-18 10:44:35,209 - DEBUG - Created client for time-sync
+2022-11-18 10:44:35,216 - DEBUG - Created client for directory
+2022-11-18 10:44:35,223 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority api.spot.robot
+2022-11-18 10:44:35,223 - DEBUG - blocking request: b'/bosdyn.api.DirectoryService/ListServiceEntries' 
+header {
+  request_timestamp {
+    seconds: 1668797075
+    nanos: 223258880
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+
+
+2022-11-18 10:44:35,304 - DEBUG - response: b'/bosdyn.api.DirectoryService/ListServiceEntries' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797075
+      nanos: 223258880
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797141
+    nanos: 815449977
+  }
+  response_timestamp {
+    seconds: 1668797141
+    nanos: 815454658
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.ListServiceEntriesRequest"
+    value: "\nC\n\013\010\223\245\337\233\006\020\200\322\272j\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+}
+service_entries {
+  name: "auth"
+  type: "bosdyn.api.AuthService"
+  authority: "auth.spot.robot"
+  last_update {
+    seconds: 1668797141
+    nanos: 501652944
+  }
+}
+service_entries {
+  name: "auto-return"
+  type: "bosdyn.api.auto_return.AutoReturnService"
+  authority: "auto-return.spot.robot"
+  last_update {
+    seconds: 1668797114
+    nanos: 55194620
+  }
+  user_token_required: true
+  permission_required: "auto-return"
+}
+service_entries {
+  name: "choreography"
+  type: "bosdyn.api.spot.ChoreographyService"
+  authority: "choreographyservice.spot.robot"
+  last_update {
+    seconds: 1668797129
+    nanos: 747828692
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "comms-data-acquisition-plugin"
+  type: "bosdyn.api.DataAcquisitionPluginService"
+  authority: "comms-data-acquisition-plugin.spot.robot"
+  last_update {
+    seconds: 1668797118
+    nanos: 335338702
+  }
+  user_token_required: true
+  liveness_timeout_secs: 75
+}
+service_entries {
+  name: "data"
+  type: "bosdyn.api.DataService"
+  authority: "data.spot.robot"
+  last_update {
+    seconds: 1668797113
+    nanos: 249733235
+  }
+  user_token_required: true
+  permission_required: "data"
+}
+service_entries {
+  name: "data-acquisition"
+  type: "bosdyn.api.DataAcquisitionService"
+  authority: "data-acquisition.spot.robot"
+  last_update {
+    seconds: 1668797118
+    nanos: 186539771
+  }
+  user_token_required: true
+  liveness_timeout_secs: 75
+}
+service_entries {
+  name: "data-acquisition-fire-extinguisher-server-plugin"
+  type: "bosdyn.api.DataAcquisitionPluginService"
+  authority: "data-acquisition-ncb-plugin.spot.robot"
+  last_update {
+    seconds: 1668797120
+    nanos: 963733714
+  }
+  user_token_required: true
+  liveness_timeout_secs: 75
+  host_payload_guid: "b6877bcf-4058-450a-9d9a-83186f7ac913"
+}
+service_entries {
+  name: "data-acquisition-store"
+  type: "bosdyn.api.DataAcquisitionStoreService"
+  authority: "data-acquisition-store.spot.robot"
+  last_update {
+    seconds: 1668797118
+    nanos: 160074548
+  }
+  user_token_required: true
+  liveness_timeout_secs: 75
+}
+service_entries {
+  name: "data-buffer"
+  type: "bosdyn.api.DataBufferService"
+  authority: "buffer.spot.robot"
+  last_update {
+    seconds: 1668797113
+    nanos: 248611375
+  }
+  user_token_required: true
+  permission_required: "data-buffer"
+}
+service_entries {
+  name: "data-buffer-private"
+  type: "bosdyn.api.DataBufferService"
+  authority: "bufferprivate.spot.robot"
+  last_update {
+    seconds: 1668797113
+    nanos: 265474785
+  }
+  user_token_required: true
+  permission_required: "data-buffer-private"
+}
+service_entries {
+  name: "directory"
+  type: "bosdyn.api.DirectoryService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1668789969
+    nanos: 436636526
+  }
+  user_token_required: true
+  permission_required: "auth"
+}
+service_entries {
+  name: "directory-registration"
+  type: "bosdyn.api.DirectoryRegistrationService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1668789969
+    nanos: 436866901
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "docking"
+  type: "bosdyn.api.docking.DockingService"
+  authority: "docking.spot.robot"
+  last_update {
+    seconds: 1668797112
+    nanos: 508462011
+  }
+  user_token_required: true
+  permission_required: "docking"
+}
+service_entries {
+  name: "echo"
+  type: "bosdyn.api.EchoService"
+  authority: "echo.spot.robot"
+  last_update {
+    seconds: 1668797111
+    nanos: 844055352
+  }
+  user_token_required: true
+  permission_required: "echo"
+}
+service_entries {
+  name: "estop"
+  type: "bosdyn.api.EstopService"
+  authority: "estop.spot.robot"
+  last_update {
+    seconds: 1668797141
+    nanos: 439953002
+  }
+  user_token_required: true
+  permission_required: "estop"
+}
+service_entries {
+  name: "fault"
+  type: "bosdyn.api.FaultService"
+  authority: "fault.spot.robot"
+  last_update {
+    seconds: 1668797139
+    nanos: 495971649
+  }
+  user_token_required: true
+  permission_required: "fault"
+}
+service_entries {
+  name: "fire-extinguisher-server"
+  type: "bosdyn.api.NetworkComputeBridgeWorker"
+  authority: "fire-extinguisher-worker.spot.robot"
+  last_update {
+    seconds: 1668797140
+    nanos: 25454258
+  }
+  user_token_required: true
+  liveness_timeout_secs: 75
+  host_payload_guid: "b6877bcf-4058-450a-9d9a-83186f7ac913"
+}
+service_entries {
+  name: "graph-nav-service"
+  type: "bosdyn.api.graph_nav.GraphNavService"
+  authority: "graph-nav.spot.robot"
+  last_update {
+    seconds: 1668797116
+    nanos: 383925987
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "image"
+  type: "bosdyn.api.ImageService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1668797139
+    nanos: 741883369
+  }
+  user_token_required: true
+  permission_required: "image"
+}
+service_entries {
+  name: "internal.localnav"
+  type: "bosdyn.api.internal.localnav.LocalNavService"
+  authority: "localnav.spot.robot"
+  last_update {
+    seconds: 1668797141
+    nanos: 655578356
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "ir-enable-disable-service"
+  type: "bosdyn.api.IREnableDisableService"
+  authority: "ir-enable-disable-service.spot.robot"
+  last_update {
+    seconds: 1668797129
+    nanos: 833582163
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "lease"
+  type: "bosdyn.api.LeaseService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1668797141
+    nanos: 500137909
+  }
+  user_token_required: true
+  permission_required: "lease"
+}
+service_entries {
+  name: "license"
+  type: "bosdyn.api.LicenseService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1668797141
+    nanos: 501487176
+  }
+  user_token_required: true
+  permission_required: "license"
+}
+service_entries {
+  name: "local-grid-service"
+  type: "bosdyn.api.LocalGridService"
+  authority: "localgrid.spot.robot"
+  last_update {
+    seconds: 1668797115
+    nanos: 565149949
+  }
+  user_token_required: true
+  permission_required: "local-grid-service"
+}
+service_entries {
+  name: "log-annotation"
+  type: "bosdyn.api.LogAnnotationService"
+  authority: "log.spot.robot"
+  last_update {
+    seconds: 1668797139
+    nanos: 487811429
+  }
+  user_token_required: true
+  permission_required: "log-annotation"
+}
+service_entries {
+  name: "map-processing-service"
+  type: "bosdyn.api.graph_nav.MapProcessingService"
+  authority: "map-processing.spot.robot"
+  last_update {
+    seconds: 1668797116
+    nanos: 389760924
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "metrics-logging"
+  type: "bosdyn.api.metrics_logging.MetricsLoggingRobotService"
+  authority: "metricslogging.spot.robot"
+  last_update {
+    seconds: 1668797141
+    nanos: 168968506
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "ncb_feature_server"
+  type: "bosdyn.api.NetworkComputeBridgeWorker"
+  authority: "ncb-feature-server.spot.robot"
+  last_update {
+    seconds: 1668797129
+    nanos: 727363449
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "network-compute-bridge"
+  type: "bosdyn.api.NetworkComputeBridge"
+  authority: "network-compute-bridge.spot.robot"
+  last_update {
+    seconds: 1668797139
+    nanos: 755183871
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "payload"
+  type: "bosdyn.api.PayloadService"
+  authority: "payload.spot.robot"
+  last_update {
+    seconds: 1668797139
+    nanos: 446502226
+  }
+  user_token_required: true
+  permission_required: "payload"
+}
+service_entries {
+  name: "payload-registration"
+  type: "bosdyn.api.PayloadRegistrationService"
+  authority: "payload-registration.spot.robot"
+  last_update {
+    seconds: 1668797139
+    nanos: 446951467
+  }
+  permission_required: "payload-registration"
+}
+service_entries {
+  name: "power"
+  type: "bosdyn.api.PowerService"
+  authority: "power.spot.robot"
+  last_update {
+    seconds: 1668797139
+    nanos: 443241019
+  }
+  user_token_required: true
+  permission_required: "power"
+}
+service_entries {
+  name: "public_estop_api"
+  type: "bdRobotApi.estop.RobotEstopRpc"
+  authority: "estop-api.spot.robot"
+  last_update {
+    seconds: 1668797141
+    nanos: 439544133
+  }
+  user_token_required: true
+  permission_required: "public_estop_api"
+}
+service_entries {
+  name: "ray-cast"
+  type: "bosdyn.api.RayCastService"
+  authority: "ray-cast.spot.robot"
+  last_update {
+    seconds: 1668797113
+    nanos: 840249554
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "recording-service"
+  type: "bosdyn.api.graph_nav.GraphNavRecordingService"
+  authority: "recordingv2.spot.robot"
+  last_update {
+    seconds: 1668797116
+    nanos: 390038217
+  }
+  user_token_required: true
+}
+service_entries {
+  name: "robot-command"
+  type: "bosdyn.api.RobotCommandService"
+  authority: "command.spot.robot"
+  last_update {
+    seconds: 1668797139
+    nanos: 484005096
+  }
+  user_token_required: true
+  permission_required: "robot-command"
+}
+service_entries {
+  name: "robot-id"
+  type: "bosdyn.api.RobotIdService"
+  authority: "id.spot.robot"
+  last_update {
+    seconds: 1668797139
+    nanos: 481149740
+  }
+}
+service_entries {
+  name: "robot-mission"
+  type: "bosdyn.api.mission.MissionService"
+  authority: "robot-mission.spot.robot"
+  last_update {
+    seconds: 1668797139
+    nanos: 455530089
+  }
+  user_token_required: true
+  liveness_timeout_secs: 12.5
+}
+service_entries {
+  name: "robot-state"
+  type: "bosdyn.api.RobotStateService"
+  authority: "state.spot.robot"
+  last_update {
+    seconds: 1668797139
+    nanos: 462305398
+  }
+  user_token_required: true
+  permission_required: "robot-state"
+}
+service_entries {
+  name: "sensor-pointing-service"
+  type: "bosdyn.api.sensor_pointing.SensorPointingService"
+  authority: "sensorpointing.spot.robot"
+  last_update {
+    seconds: 1668797113
+    nanos: 49866392
+  }
+  user_token_required: true
+  permission_required: "sensor-pointing-service"
+}
+service_entries {
+  name: "sensor-pointing-service-spotcam"
+  type: "bosdyn.api.sensor_pointing.PtzSensorService"
+  authority: "sensorpointing-ptz.spot.robot"
+  last_update {
+    seconds: 1668797113
+    nanos: 45722861
+  }
+  user_token_required: true
+  permission_required: "sensor-pointing-service-spotcam"
+}
+service_entries {
+  name: "spot-cam-audio"
+  type: "bosdyn.api.spot_cam.AudioService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797140
+    nanos: 146025017
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-camera-configuration"
+  type: "bosdyn.api.spot_cam.CameraConfigurationService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797140
+    nanos: 385502119
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-compositor"
+  type: "bosdyn.api.spot_cam.CompositorService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797139
+    nanos: 928399403
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-factory-reset"
+  type: "bosdyn.api.spot_cam.FactoryResetService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797140
+    nanos: 424020784
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-health"
+  type: "bosdyn.api.spot_cam.HealthService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797140
+    nanos: 173345530
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-image"
+  type: "bosdyn.api.ImageService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797140
+    nanos: 878070648
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-lighting"
+  type: "bosdyn.api.spot_cam.LightingService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797140
+    nanos: 36368539
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-location"
+  type: "bosdyn.api.spot_cam.LocationService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797140
+    nanos: 198661888
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-media-log"
+  type: "bosdyn.api.spot_cam.MediaLogService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797140
+    nanos: 63795859
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-network"
+  type: "bosdyn.api.spot_cam.NetworkService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797140
+    nanos: 907795056
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-power"
+  type: "bosdyn.api.spot_cam.PowerService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797139
+    nanos: 980885350
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-ptz"
+  type: "bosdyn.api.spot_cam.PtzService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797140
+    nanos: 111630003
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-ptz-configuration"
+  type: "bosdyn.api.spot_cam.PtzConfigurationService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797140
+    nanos: 648349937
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-stream-quality"
+  type: "bosdyn.api.spot_cam.StreamQualityService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797139
+    nanos: 960130527
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-cam-version"
+  type: "bosdyn.api.spot_cam.VersionService"
+  authority: "spot-cam.spot.robot"
+  last_update {
+    seconds: 1668797140
+    nanos: 308911142
+  }
+  user_token_required: true
+  liveness_timeout_secs: 10
+  host_payload_guid: "11fadbdc-760d-11e8-ac5e-48b02d1d8f75"
+}
+service_entries {
+  name: "spot-check"
+  type: "bosdyn.api.spot.SpotCheckService"
+  authority: "check.spot.robot"
+  last_update {
+    seconds: 1668797139
+    nanos: 490289999
+  }
+  user_token_required: true
+  permission_required: "spot-check"
+}
+service_entries {
+  name: "time-sync"
+  type: "bosdyn.api.TimeSyncService"
+  authority: "api.spot.robot"
+  last_update {
+    seconds: 1668797141
+    nanos: 501317928
+  }
+  user_token_required: true
+  permission_required: "time-sync"
+}
+service_entries {
+  name: "velodyne-point-cloud"
+  type: "bosdyn.api.PointCloudService"
+  authority: "velodyne.spot.robot"
+  last_update {
+    seconds: 1668797140
+    nanos: 131470627
+  }
+  user_token_required: true
+  liveness_timeout_secs: 5
+  host_payload_guid: "b6877bcf-4058-450a-9d9a-83186f7ac913"
+}
+service_entries {
+  name: "world-objects"
+  type: "bosdyn.api.WorldObjectService"
+  authority: "world-objects.spot.robot"
+  last_update {
+    seconds: 1668797115
+    nanos: 357764311
+  }
+  user_token_required: true
+  permission_required: "world-objects"
+}
+
+
+2022-11-18 10:44:35,336 - DEBUG - Created client for lease
+2022-11-18 10:44:35,348 - DEBUG - Created client for estop
+2022-11-18 10:44:35,348 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority estop.spot.robot
+2022-11-18 10:44:35,349 - DEBUG - Created client for power
+2022-11-18 10:44:35,349 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority power.spot.robot
+2022-11-18 10:44:35,349 - DEBUG - Created client for robot-state
+2022-11-18 10:44:35,349 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority state.spot.robot
+2022-11-18 10:44:35,349 - DEBUG - Created client for robot-command
+2022-11-18 10:44:35,349 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority command.spot.robot
+2022-11-18 10:44:35,350 - DEBUG - Created client for image
+2022-11-18 10:44:35,350 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/AcquireLease' 
+header {
+  request_timestamp {
+    seconds: 1668797075
+    nanos: 350309120
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+resource: "body"
+
+
+2022-11-18 10:44:35,350 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_timestamp {
+    seconds: 1668797075
+    nanos: 350582016
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+
+
+2022-11-18 10:44:35,432 - DEBUG - response: b'/bosdyn.api.LeaseService/AcquireLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797075
+      nanos: 350309120
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797141
+    nanos: 915427831
+  }
+  response_timestamp {
+    seconds: 1668797141
+    nanos: 916008386
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.AcquireLeaseRequest"
+    value: "\nD\n\014\010\223\245\337\233\006\020\200\226\205\247\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022\004body"
+  }
+}
+status: STATUS_OK
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  client_names: "root"
+}
+lease_owner {
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+
+
+2022-11-18 10:44:35,445 - INFO - Starting lease check-in
+2022-11-18 10:44:35,445 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797075
+    nanos: 445565952
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:44:35,463 - DEBUG - Created client for robot-id
+2022-11-18 10:44:35,463 - DEBUG - Created channel to 192.168.80.3 at port 443 with authority id.spot.robot
+2022-11-18 10:44:35,464 - DEBUG - blocking request: b'/bosdyn.api.RobotIdService/GetRobotId' 
+header {
+  request_timestamp {
+    seconds: 1668797075
+    nanos: 464052992
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+
+
+2022-11-18 10:44:35,489 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797075
+      nanos: 350582016
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797141
+    nanos: 970098316
+  }
+  response_timestamp {
+    seconds: 1668797141
+    nanos: 970105715
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.TimeSyncUpdateRequest"
+    value: "\nD\n\014\010\223\245\337\233\006\020\200\352\225\247\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "6e7029ea-2a41-4ef5-85bd-122ee1fd8241"
+
+
+2022-11-18 10:44:35,489 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_timestamp {
+    seconds: 1668797075
+    nanos: 489758976
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1668797075
+    nanos: 350582016
+  }
+  server_rx {
+    seconds: 1668797141
+    nanos: 970098316
+  }
+  server_tx {
+    seconds: 1668797141
+    nanos: 970105715
+  }
+  client_rx {
+    seconds: 1668797075
+    nanos: 489661952
+  }
+}
+clock_identifier: "6e7029ea-2a41-4ef5-85bd-122ee1fd8241"
+
+
+2022-11-18 10:44:35,508 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797075
+      nanos: 445565952
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797142
+    nanos: 21067352
+  }
+  response_timestamp {
+    seconds: 1668797142
+    nanos: 21257443
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\223\245\337\233\006\020\200\230\273\324\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:44:35,526 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797075
+      nanos: 489758976
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797142
+    nanos: 43641611
+  }
+  response_timestamp {
+    seconds: 1668797142
+    nanos: 43660403
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.TimeSyncUpdateRequest"
+    value: "\nD\n\014\010\223\245\337\233\006\020\200\302\304\351\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\0228\n\014\010\223\245\337\233\006\020\200\352\225\247\001\022\014\010\325\245\337\233\006\020\214\215\312\316\003\032\014\010\325\245\337\233\006\020\363\306\312\316\003\"\014\010\223\245\337\233\006\020\200\314\276\351\001\032$6e7029ea-2a41-4ef5-85bd-122ee1fd8241"
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 139072537
+  }
+  clock_skew {
+    seconds: 66
+    nanos: 549980031
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "6e7029ea-2a41-4ef5-85bd-122ee1fd8241"
+
+
+2022-11-18 10:44:35,526 - DEBUG - Check-in successful
+2022-11-18 10:44:35,527 - DEBUG - response: b'/bosdyn.api.RobotIdService/GetRobotId' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797075
+      nanos: 464052992
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797142
+    nanos: 43637110
+  }
+  response_timestamp {
+    seconds: 1668797142
+    nanos: 43670475
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RobotIdRequest"
+    value: "\nD\n\014\010\223\245\337\233\006\020\200\306\243\335\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+}
+robot_id {
+  serial_number: "spot-BD-21220011"
+  species: "spot"
+  version: "V3"
+  software_release {
+    version {
+      major_version: 3
+      minor_version: 1
+      patch_level: 2
+    }
+    changeset_date {
+      seconds: 1652190266
+    }
+    changeset: "0f1a505380bc9"
+    install_date {
+      seconds: 1652203512
+    }
+  }
+  nickname: "spot-BD-21220011"
+  computer_serial_number: "000060204773A4000091"
+}
+
+
+2022-11-18 10:44:35,540 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_timestamp {
+    seconds: 1668797075
+    nanos: 540564992
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1668797075
+    nanos: 489758976
+  }
+  server_rx {
+    seconds: 1668797142
+    nanos: 43641611
+  }
+  server_tx {
+    seconds: 1668797142
+    nanos: 43660403
+  }
+  client_rx {
+    seconds: 1668797075
+    nanos: 540492032
+  }
+}
+clock_identifier: "6e7029ea-2a41-4ef5-85bd-122ee1fd8241"
+
+
+2022-11-18 10:44:35,558 - DEBUG - blocking request: b'/bosdyn.api.EstopService/GetEstopConfig' 
+header {
+  request_timestamp {
+    seconds: 1668797075
+    nanos: 558946048
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+
+
+2022-11-18 10:44:35,616 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797075
+      nanos: 540564992
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797142
+    nanos: 129521691
+  }
+  response_timestamp {
+    seconds: 1668797142
+    nanos: 129533833
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.TimeSyncUpdateRequest"
+    value: "\nD\n\014\010\223\245\337\233\006\020\200\274\341\201\002\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\0226\n\014\010\223\245\337\233\006\020\200\302\304\351\001\022\013\010\326\245\337\233\006\020\213\326\347\024\032\013\010\326\245\337\233\006\020\363\350\350\024\"\014\010\223\245\337\233\006\020\200\202\335\201\002\032$6e7029ea-2a41-4ef5-85bd-122ee1fd8241"
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 50714264
+  }
+  clock_skew {
+    seconds: 66
+    nanos: 528525503
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "6e7029ea-2a41-4ef5-85bd-122ee1fd8241"
+
+
+2022-11-18 10:44:35,616 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_timestamp {
+    seconds: 1668797075
+    nanos: 616520960
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1668797075
+    nanos: 540564992
+  }
+  server_rx {
+    seconds: 1668797142
+    nanos: 129521691
+  }
+  server_tx {
+    seconds: 1668797142
+    nanos: 129533833
+  }
+  client_rx {
+    seconds: 1668797075
+    nanos: 616461056
+  }
+}
+clock_identifier: "6e7029ea-2a41-4ef5-85bd-122ee1fd8241"
+
+
+2022-11-18 10:44:35,660 - DEBUG - response: b'/bosdyn.api.EstopService/GetEstopConfig' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797075
+      nanos: 558946048
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797142
+    nanos: 174270777
+  }
+  response_timestamp {
+    seconds: 1668797142
+    nanos: 174961812
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.GetEstopConfigRequest"
+    value: "\nD\n\014\010\223\245\337\233\006\020\200\256\303\212\002\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+}
+active_config {
+  endpoints {
+    role: "PDB_rooted"
+    name: "GNClient"
+    timeout {
+      seconds: 9
+    }
+    cut_power_timeout {
+      seconds: 17
+    }
+  }
+  unique_id: "4"
+}
+
+
+2022-11-18 10:44:35,660 - DEBUG - blocking request: b'/bosdyn.api.EstopService/SetEstopConfig' 
+header {
+  request_timestamp {
+    seconds: 1668797075
+    nanos: 660430080
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+config {
+  endpoints {
+    role: "PDB_rooted"
+    name: "GNClient"
+    timeout {
+      seconds: 9
+    }
+  }
+}
+target_config_id: "4"
+
+
+2022-11-18 10:44:35,667 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797075
+      nanos: 616520960
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797142
+    nanos: 173630545
+  }
+  response_timestamp {
+    seconds: 1668797142
+    nanos: 173638385
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.TimeSyncUpdateRequest"
+    value: "\nD\n\014\010\223\245\337\233\006\020\200\272\375\245\002\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\0226\n\014\010\223\245\337\233\006\020\200\274\341\201\002\022\013\010\326\245\337\233\006\020\233\260\341=\032\013\010\326\245\337\233\006\020\211\217\342=\"\014\010\223\245\337\233\006\020\200\346\371\245\002\032$6e7029ea-2a41-4ef5-85bd-122ee1fd8241"
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 75883922
+  }
+  clock_skew {
+    seconds: 66
+    nanos: 551014738
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "6e7029ea-2a41-4ef5-85bd-122ee1fd8241"
+
+
+2022-11-18 10:44:35,667 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_timestamp {
+    seconds: 1668797075
+    nanos: 667284992
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1668797075
+    nanos: 616520960
+  }
+  server_rx {
+    seconds: 1668797142
+    nanos: 173630545
+  }
+  server_tx {
+    seconds: 1668797142
+    nanos: 173638385
+  }
+  client_rx {
+    seconds: 1668797075
+    nanos: 667226112
+  }
+}
+clock_identifier: "6e7029ea-2a41-4ef5-85bd-122ee1fd8241"
+
+
+2022-11-18 10:44:35,710 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797075
+      nanos: 667284992
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797142
+    nanos: 217309055
+  }
+  response_timestamp {
+    seconds: 1668797142
+    nanos: 217315887
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.TimeSyncUpdateRequest"
+    value: "\nD\n\014\010\223\245\337\233\006\020\200\354\227\276\002\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\0226\n\014\010\223\245\337\233\006\020\200\272\375\245\002\022\013\010\326\245\337\233\006\020\321\310\345R\032\013\010\326\245\337\233\006\020\361\205\346R\"\014\010\223\245\337\233\006\020\200\240\224\276\002\032$6e7029ea-2a41-4ef5-85bd-122ee1fd8241"
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 50697312
+  }
+  clock_skew {
+    seconds: 66
+    nanos: 531760929
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "6e7029ea-2a41-4ef5-85bd-122ee1fd8241"
+
+
+2022-11-18 10:44:35,729 - DEBUG - response: b'/bosdyn.api.EstopService/SetEstopConfig' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797075
+      nanos: 660430080
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797142
+    nanos: 231281077
+  }
+  response_timestamp {
+    seconds: 1668797142
+    nanos: 233737429
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.SetEstopConfigRequest"
+    value: "\nD\n\014\010\223\245\337\233\006\020\200\272\365\272\002\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\032 \n\036\n\nPDB_rooted\022\010GNClient\"\002\010\t*\002\010\021\"\0014"
+  }
+}
+active_config {
+  endpoints {
+    role: "PDB_rooted"
+    name: "GNClient"
+    timeout {
+      seconds: 9
+    }
+    cut_power_timeout {
+      seconds: 17
+    }
+  }
+  unique_id: "5"
+}
+status: STATUS_SUCCESS
+
+
+2022-11-18 10:44:35,729 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_timestamp {
+    seconds: 1668797075
+    nanos: 729938944
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1668797075
+    nanos: 667284992
+  }
+  server_rx {
+    seconds: 1668797142
+    nanos: 217309055
+  }
+  server_tx {
+    seconds: 1668797142
+    nanos: 217315887
+  }
+  client_rx {
+    seconds: 1668797075
+    nanos: 729874944
+  }
+}
+clock_identifier: "6e7029ea-2a41-4ef5-85bd-122ee1fd8241"
+
+
+2022-11-18 10:44:35,736 - DEBUG - Registering to 5
+2022-11-18 10:44:35,755 - DEBUG - blocking request: b'/bosdyn.api.EstopService/RegisterEstopEndpoint' 
+header {
+  request_timestamp {
+    seconds: 1668797075
+    nanos: 755492096
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+target_endpoint {
+  role: "PDB_rooted"
+}
+target_config_id: "5"
+new_endpoint {
+  role: "PDB_rooted"
+  name: "GNClient"
+  timeout {
+    seconds: 9
+  }
+}
+
+
+2022-11-18 10:44:35,811 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797075
+      nanos: 729938944
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797142
+    nanos: 312675052
+  }
+  response_timestamp {
+    seconds: 1668797142
+    nanos: 312688806
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.TimeSyncUpdateRequest"
+    value: "\nD\n\014\010\223\245\337\233\006\020\200\370\207\334\002\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\0226\n\014\010\223\245\337\233\006\020\200\354\227\276\002\022\013\010\326\245\337\233\006\020\377\276\317g\032\013\010\326\245\337\233\006\020\257\364\317g\"\014\010\223\245\337\233\006\020\200\204\204\334\002\032$6e7029ea-2a41-4ef5-85bd-122ee1fd8241"
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 62583120
+  }
+  clock_skew {
+    seconds: 66
+    nanos: 518732503
+  }
+}
+state {
+  status: STATUS_MORE_SAMPLES_NEEDED
+}
+clock_identifier: "6e7029ea-2a41-4ef5-85bd-122ee1fd8241"
+
+
+2022-11-18 10:44:35,811 - DEBUG - blocking request: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_timestamp {
+    seconds: 1668797075
+    nanos: 811968000
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+previous_round_trip {
+  client_tx {
+    seconds: 1668797075
+    nanos: 729938944
+  }
+  server_rx {
+    seconds: 1668797142
+    nanos: 312675052
+  }
+  server_tx {
+    seconds: 1668797142
+    nanos: 312688806
+  }
+  client_rx {
+    seconds: 1668797075
+    nanos: 811906048
+  }
+}
+clock_identifier: "6e7029ea-2a41-4ef5-85bd-122ee1fd8241"
+
+
+2022-11-18 10:44:35,849 - DEBUG - response: b'/bosdyn.api.TimeSyncService/TimeSyncUpdate' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797075
+      nanos: 811968000
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797142
+    nanos: 367537219
+  }
+  response_timestamp {
+    seconds: 1668797142
+    nanos: 367546833
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.TimeSyncUpdateRequest"
+    value: "\nD\n\014\010\223\245\337\233\006\020\200\314\226\203\003\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\0228\n\014\010\223\245\337\233\006\020\200\370\207\334\002\022\014\010\326\245\337\233\006\020\354\225\214\225\001\032\014\010\326\245\337\233\006\020\246\201\215\225\001\"\014\010\223\245\337\233\006\020\200\350\222\203\003\032$6e7029ea-2a41-4ef5-85bd-122ee1fd8241"
+  }
+}
+previous_estimate {
+  round_trip_time {
+    nanos: 81953350
+  }
+  clock_skew {
+    seconds: 66
+    nanos: 541759433
+  }
+}
+state {
+  best_estimate {
+    round_trip_time {
+      nanos: 62583120
+    }
+    clock_skew {
+      seconds: 66
+      nanos: 541759433
+    }
+  }
+  status: STATUS_OK
+  measurement_time {
+    seconds: 1668797142
+    nanos: 367546093
+  }
+}
+clock_identifier: "6e7029ea-2a41-4ef5-85bd-122ee1fd8241"
+
+
+2022-11-18 10:44:35,855 - DEBUG - response: b'/bosdyn.api.EstopService/RegisterEstopEndpoint' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797075
+      nanos: 755492096
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797142
+    nanos: 363281077
+  }
+  response_timestamp {
+    seconds: 1668797142
+    nanos: 364509729
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RegisterEstopEndpointRequest"
+    value: "\nD\n\014\010\223\245\337\233\006\020\200\312\237\350\002\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022\014\n\nPDB_rooted\032\0015\"\036\n\nPDB_rooted\022\010GNClient\"\002\010\t*\002\010\021"
+  }
+}
+new_endpoint {
+  role: "PDB_rooted"
+  name: "GNClient"
+  unique_id: "5"
+  timeout {
+    seconds: 9
+  }
+  cut_power_timeout {
+    seconds: 17
+  }
+}
+status: STATUS_SUCCESS
+
+
+2022-11-18 10:44:35,874 - DEBUG - Doing check-in to seed challenge...
+2022-11-18 10:44:35,880 - DEBUG - Stopping
+2022-11-18 10:44:35,887 - DEBUG - blocking request: b'/bosdyn.api.EstopService/EstopCheckIn' 
+header {
+  request_timestamp {
+    seconds: 1668797075
+    nanos: 887315968
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+endpoint {
+  role: "PDB_rooted"
+  name: "GNClient"
+  unique_id: "5"
+  timeout {
+    seconds: 9
+  }
+  cut_power_timeout {
+    seconds: 17
+  }
+}
+stop_level: ESTOP_LEVEL_CUT
+
+
+2022-11-18 10:44:35,974 - DEBUG - response: b'/bosdyn.api.EstopService/EstopCheckIn' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797075
+      nanos: 887315968
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797142
+    nanos: 474281077
+  }
+  response_timestamp {
+    seconds: 1668797142
+    nanos: 474789290
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.EstopCheckInRequest"
+    value: "\nD\n\014\010\223\245\337\233\006\020\200\274\215\247\003\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022!\n\nPDB_rooted\022\010GNClient\032\0015\"\002\010\t*\002\010\021(\001"
+  }
+}
+challenge: 32319838
+status: STATUS_INCORRECT_CHALLENGE_RESPONSE
+
+
+2022-11-18 10:44:36,000 - DEBUG - async request: b'/bosdyn.api.RobotStateService/GetRobotState' 
+header {
+  request_timestamp {
+    seconds: 1668797076
+    nanos: 626944
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+
+
+2022-11-18 10:44:36,102 - DEBUG - async response: b'/bosdyn.api.RobotStateService/GetRobotState' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797076
+      nanos: 626944
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797142
+    nanos: 611053175
+  }
+  response_timestamp {
+    seconds: 1668797142
+    nanos: 611173954
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RobotStateRequest"
+    value: "\nB\n\n\010\224\245\337\233\006\020\200\242&\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+}
+robot_state {
+  power_state {
+    motor_power_state: STATE_OFF
+    shore_power_state: STATE_OFF_SHORE_POWER
+    robot_power_state: ROBOT_POWER_STATE_ON
+    payload_ports_power_state: PAYLOAD_PORTS_POWER_STATE_ON
+    wifi_radio_power_state: WIFI_RADIO_POWER_STATE_ON
+    locomotion_charge_percentage {
+      value: 93
+    }
+    locomotion_estimated_runtime {
+      seconds: 5266
+      nanos: 769531250
+    }
+  }
+  battery_states {
+    identifier: "a2-22308-0003"
+    charge_percentage {
+      value: 93
+    }
+    estimated_runtime {
+      seconds: 5266
+      nanos: 769531250
+    }
+    current {
+      value: -3.4480001926422119
+    }
+    voltage {
+      value: 56.238002777099609
+    }
+    temperatures: 35.822223663330078
+    temperatures: 35.403705596923828
+    temperatures: 35.307407379150391
+    temperatures: 35.229629516601562
+    temperatures: 34.377777099609375
+    temperatures: 36.3814811706543
+    temperatures: 35.629631042480469
+    temperatures: 35.303703308105469
+    temperatures: 35.540740966796875
+    temperatures: 34.862964630126953
+    status: STATUS_DISCHARGING
+  }
+  comms_states {
+    timestamp {
+      seconds: 1668797142
+      nanos: 242224210
+    }
+    wifi_state {
+      current_mode: MODE_ACCESS_POINT
+    }
+  }
+  system_fault_state {
+    faults {
+      name: "spot_check.fault"
+      onset_timestamp {
+        seconds: 1668789982
+        nanos: 264148992
+      }
+      duration {
+        seconds: 7160
+        nanos: 338850021
+      }
+      code: 3
+      uid: 8590067715
+      error_message: "SpotCheck has not been run for 164 days. Please run SpotCheck to clear this fault."
+      severity: SEVERITY_INFO
+    }
+    faults {
+      name: "payload.fault"
+      onset_timestamp {
+        seconds: 1668794921
+        nanos: 388644096
+      }
+      duration {
+        seconds: 2221
+        nanos: 214354991
+      }
+      code: 8
+      uid: 8858502920
+      error_message: "Extra mass configured. Payload configuration may include unattached mass."
+      severity: SEVERITY_INFO
+    }
+  }
+  estop_states {
+    timestamp {
+      seconds: 1668797142
+      nanos: 606003968
+    }
+    name: "hardware_estop"
+    type: TYPE_HARDWARE
+    state: STATE_NOT_ESTOPPED
+  }
+  estop_states {
+    timestamp {
+      seconds: 1668797142
+      nanos: 606003968
+    }
+    name: "payload_estop"
+    type: TYPE_HARDWARE
+    state: STATE_NOT_ESTOPPED
+  }
+  estop_states {
+    timestamp {
+      seconds: 1668797142
+      nanos: 606003968
+    }
+    name: "software_estop"
+    type: TYPE_SOFTWARE
+    state: STATE_ESTOPPED
+  }
+  kinematic_state {
+    joint_states {
+      name: "fl.hx"
+      position {
+        value: 0.53073924779891968
+      }
+      velocity {
+        value: 0.0030981719028204679
+      }
+      acceleration {
+        value: 0.57987815141677856
+      }
+      load {
+        value: 0.021080117672681808
+      }
+    }
+    joint_states {
+      name: "fl.hy"
+      position {
+        value: 1.425443172454834
+      }
+      velocity {
+        value: -0.0084902765229344368
+      }
+      acceleration {
+        value: -0.19358468055725098
+      }
+      load {
+        value: 1.5659298896789551
+      }
+    }
+    joint_states {
+      name: "fl.kn"
+      position {
+        value: -2.7894208431243896
+      }
+      velocity {
+        value: 0.0086896494030952454
+      }
+      acceleration {
+        value: 2.4513695240020752
+      }
+      load {
+        value: 0.071877747774124146
+      }
+    }
+    joint_states {
+      name: "fr.hx"
+      position {
+        value: -0.51726406812667847
+      }
+      velocity {
+        value: 0.0073569645173847675
+      }
+      acceleration {
+        value: -1.1892479658126831
+      }
+      load {
+        value: -1.2217953205108643
+      }
+    }
+    joint_states {
+      name: "fr.hy"
+      position {
+        value: 1.4279025793075562
+      }
+      velocity {
+        value: -0.0052945744246244431
+      }
+      acceleration {
+        value: 0.57738441228866577
+      }
+      load {
+        value: 1.9091951847076416
+      }
+    }
+    joint_states {
+      name: "fr.kn"
+      position {
+        value: -2.7959396839141846
+      }
+      velocity {
+        value: -0.027472294867038727
+      }
+      acceleration {
+        value: 4.1504020690917969
+      }
+      load {
+        value: -0.069371327757835388
+      }
+    }
+    joint_states {
+      name: "hl.hx"
+      position {
+        value: 0.58157283067703247
+      }
+      velocity {
+        value: -0.0015891324728727341
+      }
+      acceleration {
+        value: -2.6220622062683105
+      }
+      load {
+        value: 0.14008648693561554
+      }
+    }
+    joint_states {
+      name: "hl.hy"
+      position {
+        value: 1.4199260473251343
+      }
+      velocity {
+        value: -0.00579461082816124
+      }
+      acceleration {
+        value: -0.4670967161655426
+      }
+      load {
+        value: 1.8901189565658569
+      }
+    }
+    joint_states {
+      name: "hl.kn"
+      position {
+        value: -2.7962379455566406
+      }
+      velocity {
+        value: -0.024585377424955368
+      }
+      acceleration {
+        value: -3.8555538654327393
+      }
+      load {
+        value: -0.086461357772350311
+      }
+    }
+    joint_states {
+      name: "hr.hx"
+      position {
+        value: -0.587080717086792
+      }
+      velocity {
+        value: -0.0030255957972258329
+      }
+      acceleration {
+        value: 1.8174924850463867
+      }
+      load {
+        value: 0.35121232271194458
+      }
+    }
+    joint_states {
+      name: "hr.hy"
+      position {
+        value: 1.4169619083404541
+      }
+      velocity {
+        value: -0.014909801073372364
+      }
+      acceleration {
+        value: 0.15298233926296234
+      }
+      load {
+        value: 2.0558035373687744
+      }
+    }
+    joint_states {
+      name: "hr.kn"
+      position {
+        value: -2.7971901893615723
+      }
+      velocity {
+        value: 0.028495211154222488
+      }
+      acceleration {
+        value: 0.51039499044418335
+      }
+      load {
+        value: -0.078612759709358215
+      }
+    }
+    acquisition_timestamp {
+      seconds: 1668797142
+      nanos: 606003968
+    }
+    transforms_snapshot {
+      child_to_parent_edge_map {
+        key: "vision"
+        value {
+          parent_frame_name: "body"
+          parent_tform_child {
+            position {
+              x: 0.44210299849510193
+              y: -0.14057633280754089
+              z: 0.0028161411173641682
+            }
+            rotation {
+              x: 0.0049563436768949032
+              y: 0.00642247311770916
+              z: 0.50226062536239624
+              w: 0.86467820405960083
+            }
+          }
+        }
+      }
+      child_to_parent_edge_map {
+        key: "odom"
+        value {
+          parent_frame_name: "body"
+          parent_tform_child {
+            position {
+              x: 0.63965153694152832
+              y: 0.15463376045227051
+              z: 0.65808475017547607
+            }
+            rotation {
+              x: -0.0019745619501918554
+              y: 0.00786858331412077
+              z: -0.3680204451084137
+              w: 0.92978227138519287
+            }
+          }
+        }
+      }
+      child_to_parent_edge_map {
+        key: "gpe"
+        value {
+          parent_frame_name: "odom"
+          parent_tform_child {
+            position {
+              x: -0.35180246829986572
+              y: -0.54424858093261719
+              z: -0.75500792264938354
+            }
+            rotation {
+              x: -0.0023477361537516117
+              y: 0.0018698036437854171
+              z: -4.389824880490778e-06
+              w: 0.99999552965164185
+            }
+          }
+        }
+      }
+      child_to_parent_edge_map {
+        key: "flat_body"
+        value {
+          parent_frame_name: "body"
+          parent_tform_child {
+            position {
+            }
+            rotation {
+              x: 0.0010599901434034109
+              y: 0.00804300419986248
+              z: 8.5221126937540248e-06
+              w: 0.99996703863143921
+            }
+          }
+        }
+      }
+      child_to_parent_edge_map {
+        key: "body"
+        value {
+          parent_tform_child {
+            position {
+            }
+            rotation {
+              w: 1
+            }
+          }
+        }
+      }
+    }
+    velocity_of_body_in_vision {
+      linear {
+        x: 0.00086471147369593382
+        y: 0.0008104452281259
+        z: -0.00042348058195784688
+      }
+      angular {
+        x: 0.0016938147600740194
+        y: -0.0013944827951490879
+        z: 0.0079454109072685242
+      }
+    }
+    velocity_of_body_in_odom {
+      linear {
+        x: -0.000989803927950561
+        y: 0.00065179349621757865
+        z: -0.00042348034912720323
+      }
+      angular {
+        x: 0.00096087716519832611
+        y: 0.00197238614782691
+        z: 0.0079454109072685242
+      }
+    }
+  }
+  behavior_fault_state {
+  }
+  foot_state {
+    foot_position_rt_body {
+      x: 0.33154520392417908
+      y: 0.2365041971206665
+      z: -0.090068802237510681
+    }
+    contact: CONTACT_LOST
+    terrain {
+      ground_mu_est: 0.60000002384185791
+      frame_name: "odom"
+      foot_slip_distance_rt_frame {
+        x: 0.0016048678662627935
+        y: 0.0010232152417302132
+        z: -1.0018320608651266e-05
+      }
+      foot_slip_velocity_rt_frame {
+        x: 0.012632380239665508
+        y: 0.013177860528230667
+        z: -9.88335013971664e-05
+      }
+      ground_contact_normal_rt_frame {
+        x: 0.0037566875107586384
+        y: 0.0038986778818070889
+        z: 0.99998533725738525
+      }
+    }
+  }
+  foot_state {
+    foot_position_rt_body {
+      x: 0.331767737865448
+      y: -0.23419532179832458
+      z: -0.090610288083553314
+    }
+    contact: CONTACT_LOST
+    terrain {
+      ground_mu_est: 0.60000002384185791
+      frame_name: "odom"
+      foot_slip_distance_rt_frame {
+        x: 0.0010540373623371124
+        y: 0.00013320647121872753
+        z: -4.4790654101234395e-06
+      }
+      foot_slip_velocity_rt_frame {
+        x: 0.018104668706655502
+        y: 0.017330745235085487
+        z: -0.00013558249338530004
+      }
+      ground_contact_normal_rt_frame {
+        x: 0.0037566875107586384
+        y: 0.0038986778818070889
+        z: 0.99998533725738525
+      }
+    }
+  }
+  foot_state {
+    foot_position_rt_body {
+      x: -0.26257035136222839
+      y: 0.23943930864334106
+      z: -0.078589767217636108
+    }
+    contact: CONTACT_LOST
+    terrain {
+      ground_mu_est: 0.60000002384185791
+      frame_name: "odom"
+      foot_slip_distance_rt_frame {
+        x: -0.001665402902290225
+        y: 0.0040561892092227936
+        z: -8.5088267951505259e-06
+      }
+      foot_slip_velocity_rt_frame {
+        x: 0.034194387495517731
+        y: 0.027192909270524979
+        z: -0.00022460549371317029
+      }
+      ground_contact_normal_rt_frame {
+        x: 0.0036940749268978834
+        y: 0.0036144326440989971
+        z: 0.99998664855957031
+      }
+    }
+  }
+  foot_state {
+    foot_position_rt_body {
+      x: -0.26198700070381165
+      y: -0.23962710797786713
+      z: -0.077208586037158966
+    }
+    contact: CONTACT_LOST
+    terrain {
+      ground_mu_est: 0.60000002384185791
+      frame_name: "odom"
+      foot_slip_distance_rt_frame {
+        x: 0.0026342300698161125
+        y: -0.0018850401975214481
+        z: -2.5468566491326783e-06
+      }
+      foot_slip_velocity_rt_frame {
+        x: 0.016112241894006729
+        y: 0.018395539373159409
+        z: -0.00013224896974861622
+      }
+      ground_contact_normal_rt_frame {
+        x: 0.0037566875107586384
+        y: 0.0038986778818070889
+        z: 0.99998533725738525
+      }
+    }
+  }
+  service_fault_state {
+    historical_faults {
+      fault_id {
+        fault_name: "Pose Update Fault"
+        service_name: "velodyne-point-cloud"
+        payload_guid: "b6877bcf-4058-450a-9d9a-83186f7ac913"
+      }
+      error_message: "Have not updated the pose in over 10 seconds, exiting."
+      attributes: "Spot CORE"
+      severity: SEVERITY_CRITICAL
+      onset_timestamp {
+        seconds: 1668789984
+        nanos: 104039842
+      }
+      duration {
+        seconds: 1
+        nanos: 432501057
+      }
+    }
+  }
+  terrain_state {
+  }
+}
+
+
+2022-11-18 10:44:37,451 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797077
+    nanos: 451228928
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:44:37,466 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797077
+      nanos: 451228928
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797143
+    nanos: 990970083
+  }
+  response_timestamp {
+    seconds: 1668797143
+    nanos: 991120180
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\225\245\337\233\006\020\200\352\224\327\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:44:37,466 - DEBUG - Check-in successful
+2022-11-18 10:44:39,455 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797079
+    nanos: 455163904
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:44:39,471 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797079
+      nanos: 455163904
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797145
+    nanos: 993818701
+  }
+  response_timestamp {
+    seconds: 1668797145
+    nanos: 994018830
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\227\245\337\233\006\020\200\200\205\331\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:44:39,471 - DEBUG - Check-in successful
+2022-11-18 10:44:41,461 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797081
+    nanos: 460759040
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:44:41,473 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797081
+      nanos: 460759040
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797147
+    nanos: 999344212
+  }
+  response_timestamp {
+    seconds: 1668797147
+    nanos: 999533160
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\231\245\337\233\006\020\200\300\332\333\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:44:41,473 - DEBUG - Check-in successful
+2022-11-18 10:44:43,465 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797083
+    nanos: 465398016
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:44:43,476 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797083
+      nanos: 465398016
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797150
+    nanos: 2999359
+  }
+  response_timestamp {
+    seconds: 1668797150
+    nanos: 3135005
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\233\245\337\233\006\020\200\322\365\335\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:44:43,476 - DEBUG - Check-in successful
+2022-11-18 10:44:45,469 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797085
+    nanos: 469095936
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:44:45,495 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797085
+      nanos: 469095936
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797152
+    nanos: 7356341
+  }
+  response_timestamp {
+    seconds: 1668797152
+    nanos: 7492538
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\235\245\337\233\006\020\200\254\327\337\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:44:45,495 - DEBUG - Check-in successful
+2022-11-18 10:44:47,472 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797087
+    nanos: 472838912
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:44:47,481 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797087
+      nanos: 472838912
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797154
+    nanos: 8019080
+  }
+  response_timestamp {
+    seconds: 1668797154
+    nanos: 8154883
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\237\245\337\233\006\020\200\346\273\341\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:44:47,481 - DEBUG - Check-in successful
+2022-11-18 10:44:49,478 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797089
+    nanos: 478467072
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:44:49,494 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797089
+      nanos: 478467072
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797156
+    nanos: 19753169
+  }
+  response_timestamp {
+    seconds: 1668797156
+    nanos: 19876512
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\241\245\337\233\006\020\200\250\223\344\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:44:49,495 - DEBUG - Check-in successful
+2022-11-18 10:44:51,483 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797091
+    nanos: 483122944
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:44:51,496 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797091
+      nanos: 483122944
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797158
+    nanos: 19264870
+  }
+  response_timestamp {
+    seconds: 1668797158
+    nanos: 19369729
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\243\245\337\233\006\020\200\276\257\346\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:44:51,496 - DEBUG - Check-in successful
+2022-11-18 10:44:53,488 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797093
+    nanos: 488036096
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:44:53,500 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797093
+      nanos: 488036096
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797160
+    nanos: 25339317
+  }
+  response_timestamp {
+    seconds: 1668797160
+    nanos: 25496665
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\245\245\337\233\006\020\200\256\333\350\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:44:53,500 - DEBUG - Check-in successful
+2022-11-18 10:44:55,494 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797095
+    nanos: 493690112
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:44:55,509 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797095
+      nanos: 493690112
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797162
+    nanos: 33404388
+  }
+  response_timestamp {
+    seconds: 1668797162
+    nanos: 33517072
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\247\245\337\233\006\020\200\272\264\353\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:44:55,510 - DEBUG - Check-in successful
+2022-11-18 10:44:57,496 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797097
+    nanos: 496858880
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:44:57,506 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797097
+      nanos: 496858880
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797164
+    nanos: 33225313
+  }
+  response_timestamp {
+    seconds: 1668797164
+    nanos: 33361807
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\251\245\337\233\006\020\200\356\365\354\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:44:57,506 - DEBUG - Check-in successful
+2022-11-18 10:44:59,499 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797099
+    nanos: 499241984
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:44:59,509 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797099
+      nanos: 499241984
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797166
+    nanos: 35691568
+  }
+  response_timestamp {
+    seconds: 1668797166
+    nanos: 37105058
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\253\245\337\233\006\020\200\250\207\356\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:44:59,509 - DEBUG - Check-in successful
+2022-11-18 10:45:01,505 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797101
+    nanos: 505054976
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:45:01,518 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797101
+      nanos: 505054976
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797168
+    nanos: 43372502
+  }
+  response_timestamp {
+    seconds: 1668797168
+    nanos: 43463293
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\255\245\337\233\006\020\200\216\352\360\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:45:01,519 - DEBUG - Check-in successful
+2022-11-18 10:45:03,510 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797103
+    nanos: 510070016
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:45:03,523 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797103
+      nanos: 510070016
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797170
+    nanos: 49530501
+  }
+  response_timestamp {
+    seconds: 1668797170
+    nanos: 49636483
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\257\245\337\233\006\020\200\232\234\363\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:45:03,524 - DEBUG - Check-in successful
+2022-11-18 10:45:05,513 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797105
+    nanos: 513006080
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:45:05,521 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797105
+      nanos: 513006080
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797172
+    nanos: 47577826
+  }
+  response_timestamp {
+    seconds: 1668797172
+    nanos: 47701736
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\261\245\337\233\006\020\200\264\317\364\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:45:05,521 - DEBUG - Check-in successful
+2022-11-18 10:45:07,519 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797107
+    nanos: 518685952
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:45:07,544 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797107
+      nanos: 518685952
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797174
+    nanos: 63524821
+  }
+  response_timestamp {
+    seconds: 1668797174
+    nanos: 63647002
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\263\245\337\233\006\020\200\212\252\367\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:45:07,544 - DEBUG - Check-in successful
+2022-11-18 10:45:09,524 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797109
+    nanos: 523760896
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:45:09,537 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797109
+      nanos: 523760896
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797176
+    nanos: 62670733
+  }
+  response_timestamp {
+    seconds: 1668797176
+    nanos: 62987993
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\265\245\337\233\006\020\200\352\337\371\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:45:09,538 - DEBUG - Check-in successful
+2022-11-18 10:45:11,529 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797111
+    nanos: 528852992
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:45:11,543 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797111
+      nanos: 528852992
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797178
+    nanos: 69770086
+  }
+  response_timestamp {
+    seconds: 1668797178
+    nanos: 69957911
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\267\245\337\233\006\020\200\320\226\374\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:45:11,543 - DEBUG - Check-in successful
+2022-11-18 10:45:13,534 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797113
+    nanos: 533953024
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:45:13,547 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797113
+      nanos: 533953024
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797180
+    nanos: 72686685
+  }
+  response_timestamp {
+    seconds: 1668797180
+    nanos: 72848519
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\271\245\337\233\006\020\200\364\315\376\001\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:45:13,548 - DEBUG - Check-in successful
+2022-11-18 10:45:15,537 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797115
+    nanos: 537270016
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:45:15,549 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797115
+      nanos: 537270016
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797182
+    nanos: 75109282
+  }
+  response_timestamp {
+    seconds: 1668797182
+    nanos: 75281128
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\273\245\337\233\006\020\200\256\230\200\002\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:45:15,549 - DEBUG - Check-in successful
+2022-11-18 10:45:17,543 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797117
+    nanos: 542928896
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:45:17,559 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797117
+      nanos: 542928896
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797184
+    nanos: 82651173
+  }
+  response_timestamp {
+    seconds: 1668797184
+    nanos: 82768213
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\275\245\337\233\006\020\200\340\361\202\002\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:45:17,560 - DEBUG - Check-in successful
+2022-11-18 10:45:19,548 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797119
+    nanos: 548019968
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:45:19,571 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797119
+      nanos: 548019968
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797186
+    nanos: 86980341
+  }
+  response_timestamp {
+    seconds: 1668797186
+    nanos: 87118428
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\277\245\337\233\006\020\200\276\250\205\002\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:45:19,571 - DEBUG - Check-in successful
+2022-11-18 10:45:21,553 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797121
+    nanos: 553026048
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:45:21,566 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797121
+      nanos: 553026048
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797188
+    nanos: 90569082
+  }
+  response_timestamp {
+    seconds: 1668797188
+    nanos: 90763190
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\301\245\337\233\006\020\200\204\332\207\002\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:45:21,566 - DEBUG - Check-in successful
+2022-11-18 10:45:23,558 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797123
+    nanos: 557946880
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:45:23,571 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797123
+      nanos: 557946880
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797190
+    nanos: 95551464
+  }
+  response_timestamp {
+    seconds: 1668797190
+    nanos: 95662433
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\303\245\337\233\006\020\200\260\206\212\002\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:45:23,571 - DEBUG - Check-in successful
+2022-11-18 10:45:25,563 - DEBUG - blocking request: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_timestamp {
+    seconds: 1668797125
+    nanos: 563489024
+  }
+  client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+}
+lease {
+  resource: "body"
+  epoch: "dZhyRBgtOAasTLQf"
+  sequence: 33
+  sequence: 0
+  client_names: "root"
+  client_names: "WASDClient"
+}
+
+
+2022-11-18 10:45:25,590 - DEBUG - response: b'/bosdyn.api.LeaseService/RetainLease' 
+header {
+  request_header {
+    request_timestamp {
+      seconds: 1668797125
+      nanos: 563489024
+    }
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  request_received_timestamp {
+    seconds: 1668797192
+    nanos: 111068477
+  }
+  response_timestamp {
+    seconds: 1668797192
+    nanos: 111203325
+  }
+  error {
+    code: CODE_OK
+  }
+  request {
+    type_url: "type.googleapis.com/bosdyn.api.RetainLeaseRequest"
+    value: "\nD\n\014\010\305\245\337\233\006\020\200\322\330\214\002\0224WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109\022.\n\004body\022\020dZhyRBgtOAasTLQf\032\002!\000\"\004root\"\nWASDClient"
+  }
+}
+lease_use_result {
+  status: STATUS_OK
+  owner {
+    client_name: "WASDClientbcd07463d636.ant.amazon.com:wasd1.py-67109"
+  }
+  attempted_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    sequence: 0
+    client_names: "root"
+    client_names: "WASDClient"
+  }
+  previous_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_known_lease {
+    resource: "body"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+  latest_resources {
+    resource: "mobility"
+    epoch: "dZhyRBgtOAasTLQf"
+    sequence: 33
+    client_names: "root"
+  }
+}
+
+
+2022-11-18 10:45:25,591 - DEBUG - Check-in successful
+2022-11-18 10:46:16,238 - DEBUG - Creating standard Sdk, cert glob: "None"
+2022-11-18 10:46:40,034 - DEBUG - Creating standard Sdk, cert glob: "None"
+2022-11-18 10:53:10,557 - DEBUG - Creating standard Sdk, cert glob: "None"
+2022-11-18 10:54:23,542 - DEBUG - Creating standard Sdk, cert glob: "None"
