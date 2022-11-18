@@ -125,7 +125,7 @@ def hello_spot(config):
         try:
             delay=500
             keep_going = True
-            _state_client = robot.addressensure_client(robot_state.RobotStateClient.default_service_name)
+            _state_client = robot.ensure_client(robot_state.RobotStateClient.default_service_name)
             battery = _state_client.get_robot_state().battery_states[0].charge_percentage.value
             while keep_going:
                 if battery < .20:
